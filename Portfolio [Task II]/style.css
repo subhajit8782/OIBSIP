@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", "Libre Baskerville", "Sedgwick Ave Display", serif, cursive;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    background-color: #ff7070;
+    width: 100vw;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 1px 4px 9px 0px gray;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.menu ul {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    list-style-type: none;
+}
+
+.menu ul li a {
+
+    padding: 0px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 900;
+    transition: all 0.4s ease-out;
+    text-underline-offset: 10px;
+    position: relative;
+}
+
+.menu ul li a:hover {
+    top: -5px;
+    letter-spacing: 5px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: white;
+    color: #f85c5c;
+    font-size: 22px;
+    box-shadow: 1px 4px 9px 0px gray;
+
+}
+
+.logo a {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.logo a span {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 22px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.logo a span:hover {
+    font-size: 2em;
+    letter-spacing: 10px;
+    padding-left: 10px;
+
+}
+
+.Home {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.home_text h1 {
+    font-size: 140px;
+    position: relative;
+    bottom: 116px;
+    right: 20px;
+    line-height: 130px;
+}
+
+.f_o {
+    color: rgb(255, 90, 90);
+}
+
+.s_o {
+    color: #fff429;
+}
+
+.home_text p {
+    color: gray;
+}
+
+.roll {
+    font-size: 32px;
+    position: relative;
+    bottom: 68px;
+    right: 17px;
+    line-height: 70px;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: #E04343;
+}
+
+.roll span {
+    color: rgb(68, 51, 51);
+}
+
+.main_image {
+    width: 550px;
+    /* border-radius: 45% 45% 0px 0px; */
+    border-radius: 50% 10%;
+    padding-left: 50px;
+}
+
+.About {
+    text-align: center;
+    color: white;
+    background-color: #E04343;
+    padding: 50px;
+}
+
+.h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* text-decoration: dotted underline white; */
+    letter-spacing: 6px;
+    text-underline-offset: 30px;
+}
+
+.about_h1>span {
+    color: yellow;
+}
+
+.About p {
+    width: 64vw;
+    display: inline-block;
+    line-height: 37px;
+    margin: 40px 0px;
+    font-size: 18px;
+}
+
+.service_h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 115px auto 80px auto;
+    font-size: 32px;
+}
+
+
+.service1,
+.service2 {
+    display: flex;
+}
+
+
+.service img {
+    width: 49.5vw;
+    height: 427px;
+}
+
+.service_text {
+    background-color: #E04343;
+    color: white;
+    height: 402px;
+    padding: 20px 30px 5px 30px;
+    line-height: 28px;
+}
+
+.service_text h2 {
+    margin: 25px auto;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.service_text hr {
+    background-color: white;
+    margin-top: 20px;
+    width: 200px;
+    height: 2px;
+    border-radius: 20%;
+}
+
+.service_text button {
+    display: inline-block;
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: color, background-color 0.2s ease-in;
+    text-transform: uppercase;
+}
+
+.service_text button:hover {
+    background-color: white;
+    color: #E04343;
+}
+
+
+.service2_text {
+    background-color: white;
+    color: #E04343;
+}
+
+.service2_text {
+    background-color: white;
+    color: #E04343;
+}
+
+.service2_text hr {
+    background-color: #E04343;
+}
+
+.service2_text button {
+    color: #E04343;
+    border-color: #E04343;
+}
+
+.service2_text button:hover {
+    background-color: #E04343;
+    color: white;
+}
+
+.portfolio div {
+    display: inline-block;
+}
+
+.portfolio table {
+    width: 80vw;
+    margin: 0px auto;
+}
+
+.td1 {
+    background: url(Images/portfolio-01-thumbnail2.jpg);
+}
+
+.td2 {
+    background: url(Images/portfolio-02-thumbnail2.jpg);
+}
+
+.td3 {
+    background: url(Images/portfolio-03-thumbnail2.jpg);
+}
+
+.td4 {
+    background: url(Images/portfolio-04-thumbnail2.jpg);
+}
+
+.td5 {
+    background: url(Images/portfolio-05-thumbnail2.jpg);
+}
+
+.td6 {
+    background: url(Images/portfolio-06-thumbnail2.jpg);
+}
+
+.td7 {
+    background: url(Images/portfolio-07-thumbnail2.jpg);
+}
+
+.td8 {
+    background: url(Images/portfolio-08-thumbnail2.jpg);
+}
+
+.td1:hover {
+    background: url(Images/portfolio-01-thumbnail.jpg);
+}
+
+.td2:hover {
+    background: url(Images/portfolio-02-thumbnail.jpg);
+}
+
+.td3:hover {
+    background: url(Images/portfolio-03-thumbnail.jpg);
+}
+
+.td4:hover {
+    background: url(Images/portfolio-04-thumbnail.jpg);
+}
+
+.td5:hover {
+    background: url(Images/portfolio-05-thumbnail.jpg);
+}
+
+.td6:hover {
+    background: url(Images/portfolio-06-thumbnail.jpg);
+}
+
+.td7:hover {
+    background: url(Images/portfolio-07-thumbnail.jpg);
+}
+
+.td8:hover {
+    background: url(Images/portfolio-08-thumbnail.jpg);
+}
+
+.portfolio table tr td {
+    background-position-x: 0px;
+    transition: all 0.5s ease;
+    height: 400px;
+    width: 350px;
+    border: 5px solid white;
+    border-bottom: hidden;
+}
+
+.portfolio table tr td:hover {
+    background-position-x: -80px;
+}
+
+.hireme {
+    width: 98.9vw;
+    background-color: #E04343;
+    text-align: center;
+}
+
+.hireme button {
+    display: inline-block;
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    font-weight: 600;
+    padding: 25px 40px;
+    margin: 50px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 0, 0.84);
+    color: yellow;
+    transition: color, background-color 0.2s ease-in;
+    text-transform: uppercase;
+}
+
+.hireme button:hover {
+    background-color: rgba(255, 255, 0, 0.81);
+    color: #E04343;
+}
+
+.blog table {
+    width: 80vw;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.blog_image1 {
+    background: url(Images/blog1_2.jpg);
+}
+
+.blog_image2 {
+    background: url(Images/blog2_2.jpg);
+}
+
+.blog_image3 {
+    background: url(Images/blog3_2.jpg);
+}
+
+.blog_image1:hover {
+    background: url(Images/blog1.jpg);
+}
+
+.blog_image2:hover {
+    background: url(Images/blog2.jpg);
+}
+
+.blog_image3:hover {
+    background: url(Images/blog3.jpg);
+}
+
+.blog_image {
+
+    background-position-x: 0px;
+    transition: all 0.5s ease;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 350px;
+    border: 5px solid white;
+    border-bottom: hidden;
+    display: inline-block;
+}
+
+.blog_image:hover {
+    background-position-x: -80px;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+}
+
+.blog td {
+    text-align: center;
+    padding: 25px;
+}
+
+.blog td h2 {
+    margin: 0px auto 30px auto;
+}
+
+.blog td hr {
+    margin: 37px auto;
+    background-color: gray;
+    height: 1.5px;
+    width: 150px;
+}
+
+.contact table {
+    width: 29vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contact table .contact_div {
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 390px;
+    height: 148px;
+    padding-top: 30px;
+    background-color: rgb(240, 240, 240);
+    margin: 0px 10px;
+    border-bottom: 4px solid #E04343;
+    position: relative;
+}
+
+.contact table .contact_div:hover {
+    box-shadow: 0px -2px 7px 0px gray;
+    margin-top: -50px;
+    border-bottom-color: #fff429;
+}
+
+.contact_div h2 {
+    font-size: 20px;
+    margin: 14px auto 12px auto;
+}
+
+.contact_div hr {
+    width: 100px;
+    text-align: center;
+    margin: 0px auto 25px auto;
+}
+
+.svg_div {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 80px auto;
+}
+
+.svg_div svg {
+    width: 50px;
+    border: 20px solid white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.svg_div svg:hover {
+    fill: #ff2929;
+    margin-top: -60px;
+}
+
+#svg1:hover {
+    fill: rgb(2, 2, 255);
+}
+
+#svg2:hover {
+    fill: rgb(2, 2, 255);
+}
+
+#svg3:hover {
+    fill: rgb(255, 2, 221);
+}
+
+#svg4:hover {
+    fill: rgb(2, 179, 255);
+}
+
+#svg5:hover {
+    fill: rgb(255, 2, 2);
+}
+
+#svg6:hover {
+    fill: rgb(2, 179, 255);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(237, 237, 237);
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.body {
+    background: rgb(205, 230, 246);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    border: 8px solid #002c93;
+    padding: 30px;
+    border-radius: 20px 0px 0px 20px;
+    background: rgba(246, 255, 253, 0.841);
+    color: rgb(12, 2, 99);
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+label {
+    display: inline-block;
+    margin: 20px auto 10px auto;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+input,
+select,
+button {
+    border: 3px solid rgb(15, 98, 170);
+    font-size: 18px;
+}
+
+input:hover {
+    background-color: aliceblue;
+}
+
+#temp_input {
+    width: 220px;
+    padding: 12px;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 45px;
+}
+
+
+#fromUnit {
+    width: 7.5rem;
+    margin-left: -5px;
+    padding: 12px;
+    border-left: hidden;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#toUnit {
+    width: 370px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+button {
+    margin: 50px auto 10px auto;
+    padding: 10px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgb(1, 155, 1);
+    /* background: linear-gradient(90deg, #0404ae, #5c5cf8, #15c7c1, #3eff5e); */
+    display: block;
+    border: hidden;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 3px 3px 3px gray;
+}
+
+button:hover {
+    background: green;
+
+}
+
+button:active {
+    box-shadow: none;
+}
+
+svg {
+    position: relative;
+    top: 6px;
+}
+
+.container2 {
+    width: 350px;
+    border: 1px solid;
+    height: 568px;
+    border-left: hidden;
+    background: #002c93;
+    background: linear-gradient(90deg, #002c93, #588aff);
+    color: white;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 52px;
+    position: relative;
+    right: 30px;
+}
